@@ -27,7 +27,16 @@ function App() {
       <div id="customCursor" style={cursorStyle}>
         <FontAwesomeIcon icon={faPlane} style={cursorSize} />
       </div>
-      {/* Your application content */}
+
+      <head>
+        <title>
+          Gopi Chand Pendyala
+        </title>
+      </head>
+      
+      <body>
+
+      </body>
     </div>
   );
 }
