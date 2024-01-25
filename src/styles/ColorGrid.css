@@ -1,0 +1,21 @@
+/* ColorGrid.css */
+.color-grid {
+    display: flex;
+    flex-direction: column;
+    /* Display rows vertically */
+}
+
+.grid-row {
+    display: flex;
+}
+
+.grid-cell {
+    border: 1px solid #000;
+    width: 20px;
+    /* Adjust the width as needed */
+    height: 20px;
+    /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
