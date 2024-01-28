@@ -3,8 +3,8 @@
     display: flex;
     flex-direction: column;
     max-height: 10px;
-    /* Display rows vertically */
-}
+    margin-left: 300px;
+    margin-top: 10px;}
 
 .grid-row {
     display: flex;

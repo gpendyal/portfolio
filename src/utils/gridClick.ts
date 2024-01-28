@@ -21,7 +21,7 @@ export const gridClick = (cel: number) => {
             }
             else{
                 element.parentNode?.removeChild(element);
-                gridelement.style.backgroundColor = 'green';
+                gridelement.style.backgroundColor = 'rgba(255,0,0,' + (4 + mines[cel])/8 +')';
                 gridelement.innerText = mines[cel].toString();
             }
         }
