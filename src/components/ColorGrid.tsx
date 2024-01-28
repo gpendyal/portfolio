@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react';
+// import React, { useEffect, useState } from 'react';
+import React from 'react';
 import '../styles/ColorGrid.css'; // Import the CSS file for styling
 
 import { gridClick } from '../utils/gridClick';
 
-import { mines } from '../utils/mines';
+// import mines from '../utils/mines';
 
 
 function ColorGrid() {

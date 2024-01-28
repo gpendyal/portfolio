@@ -1,10 +1,5 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
-
-// import TopBar from './components/TopBar';
-// import TopNavBar from './components/TopNavBar';
-// import OSMComponent from './components/OSMcomponent';
 
 import ColorGrid from './components/ColorGrid';
 
