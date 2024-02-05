@@ -1,4 +1,4 @@
-import mines from '../utils/mines';
+import mines from './mines';
 
 const neighbors: number[] = [-21, -20, -19, -1, 1, 19, 20, 21];
 
@@ -8,8 +8,11 @@ export const gridClick = (cel: number) => {
 
     if (element) {
         if (gridelement){
+
+            gridelement.style.backgroundImage = 'none';
+
             if(mines[cel] === -1){
-                gridelement.style.backgroundColor = 'red';
+                gridelement.style.backgroundColor = 'white';
                 alert("Loooooser!!!");
             }
             else if(mines[cel] === 0){
@@ -21,7 +24,10 @@ export const gridClick = (cel: number) => {
             }
             else{
                 element.parentNode?.removeChild(element);
-                gridelement.style.backgroundColor = 'rgba(255,0,0,' + (4 + mines[cel])/8 +')';
+                gridelement.style.backgroundColor = 'white';
+                gridelement.style.color = 'rgba(255,0,0,' + (4 + mines[cel])/8 +')';
+                gridelement.style.fontWeight = '900';
+                gridelement.style.fontSize = '32px';
                 gridelement.innerText = mines[cel].toString();
             }
         }

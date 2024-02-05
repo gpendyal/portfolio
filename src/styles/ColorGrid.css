@@ -17,5 +17,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blue;
+    /* background-color: rgba(180, 175, 170, 1); */
+
+    /* box-shadow: inset 0 0 0 10px rgba(200, 195, 188, 0); */
+    /* box-shadow: inset 5px 5px 0 5px rgba(200, 195, 188, 1), inset -5px -5px 0 5px rgba(150, 145, 138, 1); */
+    background-image: url('https://minesweeper.online/img/skins/hd/closed.svg?v=3');
+    background-size: contain;
 }
